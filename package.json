@@ -6,6 +6,9 @@
   "bin": {
     "declareui": "./dist/bin.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
