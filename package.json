@@ -1,0 +1,41 @@
+{
+  "name": "@declareui/cli",
+  "version": "0.1.0-alpha.1",
+  "type": "module",
+  "description": "DeclareUI CLI — init, build, and validate declarative UI components",
+  "bin": {
+    "declareui": "./dist/bin.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "declareui",
+    "cli",
+    "ui",
+    "components",
+    "code-generation"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/declare-ui/cli.git"
+  },
+  "dependencies": {
+    "@declareui/core": "file:../core",
+    "chokidar": "^4.0.3",
+    "commander": "^13.1.0",
+    "glob": "^11.0.2",
+    "js-yaml": "^4.1.1",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.5.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}
