@@ -62,7 +62,7 @@ const PACKAGE_JSON_TEMPLATE = (name: string) => JSON.stringify(
       validate: 'declareui validate',
     },
     devDependencies: {
-      '@declareui/cli': '^0.1.0-alpha.1',
+      '@declareuihq/cli': '^0.1.0-alpha.1',
     },
   },
   null,

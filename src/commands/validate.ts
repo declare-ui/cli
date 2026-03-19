@@ -6,7 +6,7 @@ import {
   validateComponent,
   DeclareUIValidationError,
   DeclareUIParseError,
-} from '@declareui/core';
+} from '@declareuihq/core';
 import { readConfig } from '../config.js';
 import { log } from '../utils/logger.js';
 

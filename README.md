@@ -3,7 +3,7 @@
     <img width="1280" height="192" alt="DeclareUI" src="https://github.com/user-attachments/assets/44918531-3b1b-4ace-bca0-db0ea99f8bc8#gh-dark-mode-only" />
 </p>
 
-# @declareui/cli
+# @declareuihq/cli
 
 Command-line tool for building, validating, and managing DeclareUI components.
 
@@ -13,10 +13,10 @@ Command-line tool for building, validating, and managing DeclareUI components.
 
 ```bash
 # Global
-pnpm add -g @declareui/cli
+pnpm add -g @declareuihq/cli
 
 # Or use directly
-npx @declareui/cli
+npx @declareuihq/cli
 ```
 
 ## Commands
@@ -69,8 +69,8 @@ tailwind: true
 
 | Package | Description |
 |:--------|:------------|
-| [`@declareui/core`](https://github.com/declare-ui/core) | Parser, AST, and code generators |
-| [`@declareui/mcp`](https://github.com/declare-ui/mcp) | MCP server for AI agents |
+| [`@declareuihq/core`](https://github.com/declare-ui/core) | Parser, AST, and code generators |
+| [`@declareuihq/mcp`](https://github.com/declare-ui/mcp) | MCP server for AI agents |
 | [`create-declareui`](https://github.com/declare-ui/create-declareui) | Scaffolding tool |
 
 ## Contributing

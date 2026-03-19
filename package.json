@@ -1,5 +1,5 @@
 {
-  "name": "@declareui/cli",
+  "name": "@declareuihq/cli",
   "version": "0.1.0-alpha.1",
   "type": "module",
   "description": "DeclareUI CLI — init, build, and validate declarative UI components",
@@ -27,7 +27,7 @@
     "url": "https://github.com/declare-ui/cli.git"
   },
   "dependencies": {
-    "@declareui/core": "file:../core",
+    "@declareuihq/core": "file:../core",
     "chokidar": "^4.0.3",
     "commander": "^13.1.0",
     "glob": "^11.0.2",

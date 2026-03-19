@@ -8,8 +8,8 @@ import {
   WCGenerator,
   DeclareUIValidationError,
   DeclareUIParseError,
-} from '@declareui/core';
-import type { ComponentAST, GeneratedFile } from '@declareui/core';
+} from '@declareuihq/core';
+import type { ComponentAST, GeneratedFile } from '@declareuihq/core';
 import { readConfig } from '../config.js';
 import { log } from '../utils/logger.js';
 import { createTimer } from '../utils/timer.js';
