@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import yaml from 'js-yaml';
+import { parse as parseYaml } from 'yaml';
 
 export interface DeclareUIConfig {
   project: { name: string; prefix: string };
@@ -24,7 +24,7 @@ export function readConfig(cwd?: string): DeclareUIConfig {
     );
   }
 
-  const raw = yaml.load(content) as DeclareUIConfig;
+  const raw = parseYaml(content) as DeclareUIConfig;
 
   if (!raw?.project?.name) {
     throw new Error(`Invalid config: missing "project.name" in ${configPath}`);

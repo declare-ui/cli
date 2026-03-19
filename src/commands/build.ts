@@ -1,6 +1,6 @@
 import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join, resolve, basename, relative } from 'node:path';
-import { glob } from 'glob';
+import { glob } from 'tinyglobby';
 import {
   parseComponent,
   validateComponent,
